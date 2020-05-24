@@ -1,5 +1,5 @@
 $lt-gray: #ddd;
-$background-dark: rgb(35, 16, 78);
+$background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
 // #512DA8
@@ -72,4 +72,21 @@ body{
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+.modal-header{
+    background-color: $background-dark;
+    .modal-title{
+        color: whitesmoke;
+        font-style: italic;
+    }
+    .close{
+        color: white;
+    }
+    .close:hover{
+        color: yellowgreen;
+    }
+}
+.modal-body{
+    background-color: $background-pale;
 }
